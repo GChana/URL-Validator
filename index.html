@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackerthon</title>
+    <script
+      type="module"
+      src="https://unpkg.com/axios/dist/axios.min.js"
+      defer
+    ></script>
+    <script src="./scripts/script.js" defer></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="header__title">October Hackathon</h2>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__wrapper">
+          <h1 class="hero__title">Super Duper URL Checker 5000</h1>
+          <form class="form" id="form">
+            <div class="form__group">
+              <label for="url"></label>
+              <input
+                class="form__input"
+                type="text"
+                name="url"
+                id="name"
+                placeholder="Enter the URL here"
+              />
+            </div>
+            <p class="form__error form__error--url"></p>
+            <button class="form__button" type="submit">LETS FIND OUT!</button>
+          </form>
+        </div>
+      </section>
+      <section class="feedback"></section>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>
